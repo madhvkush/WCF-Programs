@@ -1,0 +1,14 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>DataContract{WCF}</h2>
+
+@{ var pinfo = ViewBag.PInfo;}
+@if (pinfo != null)
+{
+    <label>Name:-</label><label>@pinfo.Name</label><br />
+    <label>Email:-</label><label>@pinfo.Email</label><br />
+    
+}

@@ -1,0 +1,21 @@
+﻿@{
+    ViewBag.Title = "Intro to WCF";
+}
+
+
+@if (ViewBag.Welcome!=null)
+{
+    <h3>@ViewBag.Welcome</h3>
+    <br />
+}
+
+@using(Html.BeginForm())
+{
+    <input type="text" name="name" placeholder="Name" /><br />
+    <button>submit</button><br />
+}
+
+@if(ViewBag.Name!=null)
+{
+    <span>@ViewBag.Name</span>
+}

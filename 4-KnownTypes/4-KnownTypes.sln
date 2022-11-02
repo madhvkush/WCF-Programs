@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4-KnownTypes", "4-KnownTypes\4-KnownTypes.csproj", "{6D5AA919-C22E-4D9B-8B05-19743A4EADEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hoster", "Hoster\Hoster.csproj", "{E83BD621-DB53-481D-95DD-9FCC02F613D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebClient", "WebClient\WebClient.csproj", "{746CF982-A2C2-4430-946C-8F30B7BC7EB1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6D5AA919-C22E-4D9B-8B05-19743A4EADEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D5AA919-C22E-4D9B-8B05-19743A4EADEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D5AA919-C22E-4D9B-8B05-19743A4EADEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D5AA919-C22E-4D9B-8B05-19743A4EADEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E83BD621-DB53-481D-95DD-9FCC02F613D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E83BD621-DB53-481D-95DD-9FCC02F613D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E83BD621-DB53-481D-95DD-9FCC02F613D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E83BD621-DB53-481D-95DD-9FCC02F613D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{746CF982-A2C2-4430-946C-8F30B7BC7EB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{746CF982-A2C2-4430-946C-8F30B7BC7EB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{746CF982-A2C2-4430-946C-8F30B7BC7EB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{746CF982-A2C2-4430-946C-8F30B7BC7EB1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BDE3D876-72B2-4704-AE6B-C2F8463249C4}
+	EndGlobalSection
+EndGlobal
